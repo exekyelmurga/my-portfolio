@@ -1,6 +1,9 @@
 function Footer() {
     return (
-        <h3>footer</h3>
+        <section id="footer">
+            <h3>footer</h3>
+
+        </section>
     )
 }
 
