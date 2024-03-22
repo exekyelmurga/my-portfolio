@@ -1,5 +1,23 @@
-/* section {
+section {
     display: flex;
-    justify-content: right;
-    
-} */
+    flex-wrap: wrap;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;  
+    border-radius: 10px;  
+}
+
+a:hover {
+    background-color: #09f;
+    text-decoration: underline;
+}

@@ -1,10 +1,18 @@
-:root {
+#root {
+  background-color: chocolate;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
   width: 100%;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
+section:first-child {
+  align-self: flex-end;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0px;
+}
