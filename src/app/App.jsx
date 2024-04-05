@@ -5,7 +5,7 @@ function App() {
   const [users, setUsers] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/users')
+    fetch('https://api-user-list.onrender.com/users')
     .then(res => res.json())
     .then(data => setUsers(data))
   }, [])
