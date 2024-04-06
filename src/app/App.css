@@ -1,3 +1,55 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+}
 
+.form-name {
+    width: min-content;
+    height: 30px;
+}
+.navbar {
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #09f;
+    align-items: baseline;
+}
+
+.navbutton {
+    max-height: 40px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.content span {
+    padding: 5px;
+    max-width: 200px;
+    max-height: 300px;
+    box-sizing: border-box;
+    border: solid 1px white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.content img {
+    width: 180px;
+    max-width: 200px;
+    height: 180px;
+}
+
+.create_user {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
 
 

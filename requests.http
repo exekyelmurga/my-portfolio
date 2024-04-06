@@ -1,13 +1,12 @@
 ###
-POST http://localhost:3000/users HTTP/1.1
+POST https://api-user-list.onrender.com/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Ezequiel",
+    "name": "Ezequiel2",
     "age": 83,
     "email": "pepito.com",
-    "picture": "https://imgs.search.brave.com/whyckyrJ17qnooltpTq_YA60G3fIKndzI9J8JNMgKWY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ldmFv/cnRpei5lcy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wMS9u/b2VsaWEtcG9zdC0x/LTMwMHgyMjguanBn"
-
+    "picture": "https://imgs.search.brave.com/9B4B0npB9UuaVucFOq-IuOvQqL0rTMXvnH6OTjIVX0Q/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idWZm/ZXIuY29tL2xpYnJh/cnkvY29udGVudC9p/bWFnZXMvMjAyMi8w/My9za2l0Y2gtLTct/LnBuZw"
 }
 ###
 GET http://localhost:3000/users HTTP/1.1
@@ -20,7 +19,7 @@ GET http://localhost:3000/users/660ffd20c5e138ebfd136321 HTTP/1.1
 Content-Type: application/json
 
 ###
-PUT http://localhost:3000/users/660ffd20c5e138ebfd136321 HTTP/1.1
+PUT http://localhost:3000/users/6610625ae48b31ba18ef873a HTTP/1.1
 Content-Type: application/json
 
 {
@@ -30,5 +29,5 @@ Content-Type: application/json
 }
 
 ### 
-DELETE http://localhost:3000/users/660ffd20c5e138ebfd136321 HTTP/1.1
+DELETE https://api-user-list.onrender.com/users/6610625ae48b31ba18ef873a  HTTP/1.1
 Content-Type: application/json
