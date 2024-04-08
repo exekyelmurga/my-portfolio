@@ -19,13 +19,15 @@ GET http://localhost:3000/users/660ffd20c5e138ebfd136321 HTTP/1.1
 Content-Type: application/json
 
 ###
-PUT http://localhost:3000/users/6610625ae48b31ba18ef873a HTTP/1.1
+PUT https://api-user-list.onrender.com/users/66115d3f6a50a22a15482625 HTTP/1.1
 Content-Type: application/json
 
 {
     "name": "Ezequiel Actualizado",
     "age": 100,
-    "email": "pepito.actualizado.com"
+    "email": "pepito.actualizado.com",
+    "picture": "https://imgs.search.brave.com/Q05pgF2GqCkrvfEJdD9s0AMR9598dZDbhi9D3ptRZY8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ibG9n/Lm1hc2NvdGF5c2Fs/dWQuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE5LzA5L3Nl/dHRlci1pbmdsZXMu/anBn"
+
 }
 
 ### 

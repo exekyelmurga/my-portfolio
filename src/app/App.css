@@ -23,14 +23,14 @@ body {
 .content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
 .content span {
     padding: 5px;
     max-width: 200px;
-    max-height: 300px;
+
     box-sizing: border-box;
     border: solid 1px white; 
     display: flex;
@@ -52,4 +52,9 @@ body {
     justify-content: space-evenly;
 }
 
+.pag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
